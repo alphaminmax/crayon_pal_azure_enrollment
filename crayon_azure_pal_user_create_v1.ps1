@@ -1,7 +1,9 @@
 ################################################################################################################################
-# Written by Jared Griego | Crayon.com | 2.18.2025 | Rev 1.0 |jared.griego@crayon.com                                           #
-# Azure PowerShell Script to create the PAL user account for client project tracking                                                      #
-# Requirements: Azure PowerShell Modules                   #
+# Written by Jared Griego | Crayon.com | 2.18.2025 | Rev 1.0 |jared.griego@crayon.com                                          #
+# Based on the scripts created by the Crayon Help Desk Team | Hooman Haghighat hooman.haghighat@crayon.com &                   #
+# Angela Martin angela.martin@crayon.com & Travis Hartman travis.hartman@crayon.com                                            #
+# Azure PowerShell Script to create the PAL user account for client project tracking                                           #
+# Requirements: Azure PowerShell Modules                                                                                       #
 # Python = 3.12.6                                                                                                              #
 # PowerShell 7.5.0 x64                                                                                                         #
 # pip -r install requirements.txt                                                                                              #
