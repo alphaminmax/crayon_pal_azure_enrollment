@@ -55,7 +55,7 @@ Start-Transcript -Path $logFilePath -Append
 
 Write-Log "Script started. Tenant: $TenantId, Role: $Role"
 
-# Connect to Azure using interactive web authentication for the provided tenant
+# Connect to Azure using interactive web authentication for the provided destinatin client tenant
 try {
     Connect-AzAccount -Tenant $TenantId -ErrorAction Stop
     Write-Log "Successfully connected to Azure tenant $TenantId"
